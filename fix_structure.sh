@@ -6,7 +6,7 @@ cd "$ROOT_DIR"
 
 if [[ ! -d task_manager ]]; then
   echo "Creating task_manager directory..."
-  mkdir task_manager
+  mkdir -p task_manager
 else
   echo "task_manager directory already exists."
 fi
